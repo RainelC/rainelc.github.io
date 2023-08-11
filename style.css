@@ -1,0 +1,48 @@
+body{
+  background-color: #000000;
+  margin: 0%;
+  padding: 0;
+}
+
+.logo {
+  background: left / cover url('/media/examples/puppy-header-logo.jpg');
+  display: flex;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  font:
+    bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script',
+    fantasy;
+  color:  #ffffff;
+  text-shadow: #000000 2px 2px 0.2rem;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+  }
+  
+header{
+    background-color: #F07EF2;
+}
+
+main{
+  background-color: #929EA6;
+}
+
+.material-symbols-outlined{
+  right: 60px;
+  position: absolute;
+}
+
+h1{
+  text-align: center;
+  font-size: 3rem;
+  margin: 0%;
+  padding: 0%;
+}
+
+#hh{
+  -webkit-text-stroke: 0.5px #000000;
+
+}
