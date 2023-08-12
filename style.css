@@ -2,6 +2,7 @@ body{
   background-color: #000000;
   margin: 0%;
   padding: 0;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .logo {
@@ -44,5 +45,96 @@ h1{
 
 #hh{
   -webkit-text-stroke: 0.5px #000000;
+}
 
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+
+address, #email{
+  display: inline;
+}
+
+#text-fir{
+  text-align: center;
+  font-size: 48px;
+  line-height: 60px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #ffffff;
+}
+
+video{
+  width: 50%;
+  margin: 0%;
+  padding: 0;
+  object-fit: cover
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0.5rem 0;
+}
+
+.video-container {
+  position: relative;
+  height: 70px;
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.catalogo-container{
+  width: 100%;
+  background-color: #929EA6;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.keyboards{
+  border: solid 1px black;
+  text-align: center;
+  line-height: 60px;
+  margin: 10px;
+}
+
+.keyboards img{
+  width: 375px;
+  height: 200px;
+}
+
+
+.keycaps{
+  border: solid 1px black;
+  text-align: center;
+  line-height: 60px;
+  margin: 10px;
+}
+
+.keycaps img{
+  width: 375px;
+  height: 200px;
 }
