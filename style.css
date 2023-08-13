@@ -5,6 +5,34 @@ body{
   font-family: 'Montserrat Alternates', sans-serif;
 }
 
+/* Estilos generales para pantallas más grandes */
+.overlay {
+  font-size: 60px;
+  line-height: 60px;
+}
+
+#hh {
+  font-size: 3rem;
+}
+
+/* Media Query para dispositivos con un ancho máximo de 768px (pantallas móviles) */
+@media (max-width: 768px) {
+  .overlay {
+    font-size: 44px; 
+    line-height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+
+  #hh {
+    font-size: 2rem; /* Ajusta el tamaño del encabezado h1 para móviles */
+    position: relative;
+    left: -18px;
+  }
+}
+
 .logo {
   background: left / cover url('/media/examples/puppy-header-logo.jpg');
   display: flex;
@@ -119,6 +147,13 @@ nav a {
   text-align: center;
   line-height: 60px;
   margin: 10px;
+  transition: height 0.3s;
+  height: 313px;
+  position: relative;
+}
+
+.keyboards:hover{
+  height: 380px;
 }
 
 .keyboards img{
@@ -132,9 +167,53 @@ nav a {
   text-align: center;
   line-height: 60px;
   margin: 10px;
+  transition: height 0.3s;
+  height: 313px;
+  position: relative;
+}
+
+.keycaps:hover{
+  height: 380px;
 }
 
 .keycaps img{
   width: 375px;
   height: 200px;
+}
+
+.hidden-button {
+  display: non;
+  position: absolute;
+  bottom: 20px; 
+  transition: opacity 0.3s;
+  opacity: 0; 
+}
+
+
+.keyboards:hover .hidden-button {
+  display: block; 
+  opacity: 1;
+}
+
+.keycaps:hover .hidden-button {
+  display: block; 
+  opacity: 1;
+}
+
+.button-img {
+  cursor: pointer;
+}
+
+.catalogo-container p{
+  margin: -15px;
+  
+}
+
+#amb{
+  height: 75px;
+  width: 150px;
+  top: 35px;
+  left: 110px;
+  position: relative;
+  
 }
